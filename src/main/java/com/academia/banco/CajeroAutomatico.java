@@ -58,6 +58,7 @@ public class CajeroAutomatico {
             throw new LimiteDiarioExcedidoException(yaRetirado, monto, LIMITE_DIARIO);
         }
     }
+    
 
     private void avisar(String numeroCuenta, String mensaje) {
         try {
